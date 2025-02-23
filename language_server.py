@@ -1,5 +1,5 @@
 from pygls.server import LanguageServer
-from pygls.lsp.types import Hover, HoverParams
+from pygls.lsp import Hover, HoverParams
 from syaml_editor.formatter import format_text
 
 server = LanguageServer("syaml-language-server", "1.0")
